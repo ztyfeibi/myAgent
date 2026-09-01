@@ -1,0 +1,71 @@
+# DeerFlow docker image cache
+docker/.cache/
+
+# Local agent/runtime state
+.omc/
+.agents/
+.codex/
+.codegraph/
+.deer-flow/
+.claude/
+.gstack/
+.worktrees/
+.monocle/
+logs/
+log/
+temp/
+pr-build/
+
+# OS generated files
+.DS_Store
+*.local
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv
+venv/
+
+# Benchmark outputs
+bench_results.jsonl
+bench_optimized.jsonl
+results.jsonl
+backend/scripts/benchmark/*.jsonl
+
+# Environment variables and local configuration
+.env
+config.yaml
+mcp_config.json
+extensions_config.json
+config.yaml.bak
+
+# IDE
+.idea/
+.vscode/
+
+# Coverage report
+coverage.xml
+coverage/
+
+# Local/custom and generated assets
+skills/custom/*
+.githooks/
+.pnpm-store
+sandbox_image_cache.tar
+web/
+backend/Dockerfile.langgraph
+.playwright-mcp
+/frontend/test-results/
+/frontend/playwright-report/
+
+# Extension Manager install snapshots are regenerated from rag-extension.
+backend/extensions/
+
